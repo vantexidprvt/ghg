@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title></title>
+    <meta name="author" content="Beautylook" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/image/fav.webp" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com/" />
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&amp;family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+    <!-- <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+    <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/customs.css" />
+    <!-- SweetAlert CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <!-- SweetAlert JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5NLV6NR');</script>
+    <!-- End Google Tag Manager -->
+    <style>
+        .alert {
+            padding: 15px;
+            margin-top: 10px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        .alert-success {
+            color: #3c763d;
+            background-color: #dff0d8;
+            border-color: #d6e9c6;
+        }
+
+        .alert-danger {
+            color: #a94442;
+            background-color: #f2dede;
+            border-color: #ebccd1;
+        }
+
+        .jpdXpC {
+            background-color: #000 !important;
+        }
+
+        .es-review-content-text {
+            color: #fff;
+        }
+
+        .es-review-author-name {
+            color: #fff;
+        }
+
+        .cwZklo {
+            color: #fff;
+        }
+
+        /******google review css********/
+        .iPXdjg {
+            background-color: #000000 !important;
+        }
+
+        .dqiKFy {
+            color: #fff;
+        }
+
+        /*************coupen form css*****************/
+        /* General form styling */
+        .form-inline .form-group {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+            /* Space between form-group items */
+        }
+
+        .form-inline label {
+            margin-right: 10px;
+            white-space: nowrap;
+            /* Prevent wrapping of the label text */
+        }
+
+        .form-inline input[type="text"] {
+            width: auto;
+            flex-grow: 1;
+            min-width: 500px;
+            /* Ensure a minimum width for input */
+        }
+
+        /* Button Styling */
+        .th-btn1 {
+            margin-top: -30px;
+            background-color: #007bff;
+            /* Bootstrap primary blue */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            width: 200px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            /* Smooth hover effect */
+        }
+
+        .th-btn1:hover {
+            background-color: #0056b3;
+            /* Darker blue on hover */
+        }
+
+        .th-btn1:active {
+            background-color: #004080;
+            /* Even darker blue on click */
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+            /* Button press effect */
+        }
+
+        .th-btn1:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5);
+            /* Focus effect for accessibility */
+        }
+
+        /* Adjusting responsiveness */
+        @media (max-width: 768px) {
+            .form-inline {
+                flex-direction: column;
+            }
+
+            .form-inline .form-group {
+                margin-right: 0;
+                margin-bottom: 10px;
+                width: 100%;
+            }
+
+            .form-inline input[type="text"] {
+                width: 100%;
+                min-width: 100px;
+            }
+
+            .th-btn1 {
+                width: 100%;
+                margin-left: 0;
+                margin-top: -26px;
+
+            }
+
+            .mobslider {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="th-menu-wrapper">
+        <div class="th-menu-area">
+            <div class="mobile-logo">
+                <a href="index.php">
+                    <img src="assets/img/nwlogo.png" alt="Beautylook" style="margin-top:20px;" />
+                </a>
+                <div class="close-menu">
+                    <button class="th-menu-toggle">
+                        <i class="fal fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="th-mobile-menu">
+                <ul>
+                    <!-- <li> -->
+                                        <!-- </li> -->
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index.php#about-sec">About us</a></li>
+                    <li class="menu-item-has-children">
+                        <a href="salon-services-at-home.php">In home Services</a>
+                        <!-- <ul class="sub-menu">
+                                                            <li><a href="category.php?cate=">
+                                    </a></li>
+                                                        </ul> -->
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="category.php?cate=beauty-packages-at-home">Beauty Package</a>
+                            </li>
+                            <li>
+                                <a href="category.php?cate=waxing-services-at-home">Waxing</a>
+                            </li>
+                            <li>
+                                <a href="category.php?cate=facial-services-at-home">Facial</a>
+                            </li>
+                            <li>
+                                <a href="category.php?cate=bleach-de-tan-services-at-home">De-Tan / Bleach</a>
+                            </li>
+                            <li>
+                                <a href="category.php?cate=manicure-pedicure-at-home">Mani - Pedi</a>
+                            </li>
+                            <li>
+                                <a href="category.php?cate=massage-services-at-home">Massage</a>
+                            </li>
+                            <li>
+                                <a href="category.php?cate=full-body-polishing-at-home">Body Polishing</a>
+                            </li>
+                            <li>
+                                <a href="category.php?cate=hair-services-at-home">Hair Services</a>
+                            </li>
+                            <li>
+                                <a href="category.php?cate=hair-makeup-services-at-home">Hair + Makeup</a>
+                            </li>
+                            <li>
+                                <a href="category.php?cate=threading-services-at-home">Threading</a>
+                            </li>
+                        </ul>
+                    </li>
+                                            <!--<li><a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login/Register</a></li>-->
+                        <li><a href="login-register.php" >Login/Register</a></li>
+
+                                            <li><a href="pre-bridal.php">Pre Bridal</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--------cart popup start---------------->
+
+    <!-- <div class="sidemenu-wrapper shopping-cart d-none d-lg-block"> 
+        <div class="sidemenu-content">
+            <button class="closeButton sideMenuCls">
+                <i class="far fa-times"></i>
+            </button>
+            <div class="widget woocommerce widget_shopping_cart">
+                <h3 class="widget_title">Shopping cart</h3>
+                <div class="widget_shopping_cart_content">
+                    <ul class="woocommerce-mini-cart cart_list product_list_widget">
+                        <li class="woocommerce-mini-cart-item mini_cart_item">
+                            <a href="#" class="remove remove_from_cart_button">
+                                <i class="far fa-times"></i>
+                            </a>
+                            <a href="#"> <img src="assets/img/product/product_thumb_1_1.jpg" alt="Cart Image" />OPI Nail
+                                Polish </a>
+                            <span class="quantity">
+                                2 × <span class="woocommerce-Price-amount amount"> <span
+                                        class="woocommerce-Price-currencySymbol">$</span>94 </span>,
+                            </span>
+                        </li>
+                    </ul>
+                    <p class="woocommerce-mini-cart__total total">
+                        <strong>Subtotal:</strong>
+                        <span class="woocommerce-Price-amount amount"> <span
+                                class="woocommerce-Price-currencySymbol">$</span>43 </span>
+                    </p>
+                    <p class="woocommerce-mini-cart__buttons buttons">
+                        <a href="#" class="th-btn wc-forward">View cart</a>
+                        <a href="#" class="th-btn checkout wc-forward">Checkout</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!--------cart popup end---------------->
+
+    <!-- <div class="popup-search-box d-none d-lg-block">
+        <button class="searchClose">
+            <i class="fal fa-times"></i>
+        </button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?" />
+            <button type="submit">
+                <i class="fal fa-search"></i>
+            </button>
+        </form>
+    </div> -->
+    <header class="th-header header-layout1">
+        <div class="header-top">
+            <div class="container th-container">
+                <div class="row justify-content-center align-items-center gy-2">
+                    <div class="col-auto ">
+                        <div class="header-links">
+                            <ul>
+                                <li><b>Save ₹100 on Any Services Use Code: GLOW100</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-wrapper">
+            <div class="menu-area">
+                <div class="container th-container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto me-xl-1 mobiletp">
+                            <h5><a class="call-us-head" href="tel:+917703829192">Call Us</a></h5>
+                        </div>
+                        <div class="col-auto me-xl-1">
+                            <div class="header-logo">
+                                <a href="index.php">
+                                    <img src="assets/img/nwlogo.png" alt="Beautylook" style="margin-top:25px;" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-auto me-xl-1" style="margin-left:-72px;">
+                            <nav class="main-menu d-none d-lg-inline-block">
+                                <ul>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="index.php#about-sec">About us</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="salon-services-at-home.php">In home Services</a>
+                                        <!-- <ul class="sub-menu">
+                                                                                                    <li><a href="category.php?cate="></a></li>
+                                                                                                </ul> -->
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <a href="category.php?cate=beauty-packages-at-home">Beauty Package</a>
+                                            </li>
+                                            <li>
+                                                <a href="category.php?cate=waxing-services-at-home">Waxing</a>
+                                            </li>
+                                            <li>
+                                                <a href="category.php?cate=facial-services-at-home">Facial</a>
+                                            </li>
+                                            <li>
+                                                <a href="category.php?cate=bleach-de-tan-services-at-home">De-Tan /
+                                                    Bleach</a>
+                                            </li>
+                                            <li>
+                                                <a href="category.php?cate=manicure-pedicure-at-home">Mani - Pedi</a>
+                                            </li>
+                                            <li>
+                                                <a href="category.php?cate=massage-services-at-home">Massage</a>
+                                            </li>
+                                            <li>
+                                                <a href="category.php?cate=full-body-polishing-at-home">Body
+                                                    Polishing</a>
+                                            </li>
+                                            <li>
+                                                <a href="category.php?cate=hair-services-at-home">Hair Services</a>
+                                            </li>
+                                            <li>
+                                                <a href="category.php?cate=hair-makeup-services-at-home">Hair +
+                                                    Makeup</a>
+                                            </li>
+                                            <li>
+                                                <a href="category.php?cate=threading-services-at-home">Threading</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="pre-bridal.php">Pre Bridal</a></li>
+
+                                    <li>
+                                        <a href="contact.php">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+
+                            <button class="th-menu-toggle d-inline-block d-lg-none">
+                                <i class="far fa-bars"></i>
+                            </button>
+                        </div>
+
+
+
+                        <div class="col-auto d-none d-xl-block">
+                            <div class="header-button">
+
+                                <!-- <button type="button" class="icon-btn searchBoxToggler">
+                                        <i class="far fa-search"></i>
+                                    </button> -->
+                                <!-- <a href="#" class="icon-btn sideMenuToggler2"> -->
+                                <a href="login-register.php" >Login / Register</a>                                                                      <a href="cart.php" class="icon-btn">
+                                        <i class="fa-light fa-cart-shopping"></i>
+                                                                            </a>
+
+                                <a href="category.php"  class="th-btn">Book
+                                    Service <i class="fa-regular fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-bg"></div>
+            </div>
+        </div>
+    </header>
+	<!-- <section class="th-hero-wrapper hero-1" id="hero" data-bg-src="assets/img/bg/hero_bg_shape.png"> -->
+	<section class="th-hero-wrapper" id="hero">
+	 	<div class="hero-slider-1 th-carousel" data-slide-show="1" data-md-slide-show="1"
+			data-arrows="true" data-xl-arrows="true" data-ml-arrows="true" data-lg-arrows="true">
+			<div class="th-hero-slide" style="background-color:#f1f0f5;">
+			    
+								<a class="desktp-ban-img" href="salon-services-at-home.php"> 
+                                     <img class="w-100 " src="assets/img/hero/desktop/1.png" alt=""  >
+                                     </a>
+								<a class="mob-ban-img" href="salon-services-at-home.php">
+									<img class="w-100" src="assets/img/hero/mobile/3.png" alt=""  >
+								</a>
+			</div>
+			
+			<div class="th-hero-slide" style="background-color:#f1f0f5;">
+			    
+								<a class="desktp-ban-img" href="salon-services-at-home.php"> 
+                                     <img class="w-100 " src="assets/img/hero/desktop/2.png" alt=""  >
+                                     </a>
+								<a class="mob-ban-img" href="salon-services-at-home.php">
+									<img class="w-100" src="assets/img/hero/mobile/2.png" alt=""  >
+								</a>
+			</div>
+			
+			<div class="th-hero-slide" style="background-color:#f1f0f5;">
+			    
+								<a class="desktp-ban-img" href="salon-services-at-home.php"> 
+                                     <img class="w-100 " src="assets/img/hero/desktop/3.png" alt=""  >
+                                     </a>
+								<a class="mob-ban-img" href="salon-services-at-home.php">
+									<img class="w-100" src="assets/img/hero/mobile/1.png" alt=""  >
+								</a>
+			</div>
+			
+			
+			<!-- <div class="th-hero-slide">
+				<div class="container">
+					<div class="row align-items-end">
+						<div class="col-lg-6 col-xl-7">
+							<div class="hero-style1">
+								<span class="sub-title" data-ani="slideindown" data-ani-delay="0.2s"> <img
+										src="assets/img/theme-img/title_left.svg" alt="shape" />Wellness
+									delivered</span>
+								<h1 class="hero-title" data-ani="slideindown" data-ani-delay="0.3s"
+									style="font-size:45px;line-height:1.3;">Transform Your Body and Mind with Our Expert
+									Massage Services.</h1>
+								<div class="btn-group justify-content-center justify-content-lg-start"
+									data-ani="slideindown" data-ani-delay="0.4s">
+									<a href="salon-services-at-home.php" class="th-btn">Book Now <i class="fa-regular fa-arrow-right ms-2"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-xl-5">
+							<div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.2s">
+								<img src="assets/img/hero/Slider1.png" alt="" / class="desktp">
+								<img src="assets/img/hero/Slider1.png" alt="" / class="mobviw">
+								<div class="th-hero-shape" data-ani="slideinright" data-ani-delay="0.4s"></div>
+								<div class="th-hero-shape2" data-ani="slideinright" data-ani-delay="0.7s"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+		</section>
+
+	<div class="section" style="background-color: #F6C9B9;">
+		<div class="title-area text-center">
+			<h2 class="sec-title ttl1">Excellent
+				<i class="fa-solid fa-star icn1"></i>
+				<i class="fa-solid fa-star icn1"></i>
+				<i class="fa-solid fa-star icn1"></i>
+				<i class="fa-solid fa-star icn1"></i>
+				<i class="fa-solid fa-star icn1"></i>
+				4.9 Out Of 5 Based On 1300+ Google Review
+			</h2>
+
+		</div>
+
+	</div>
+
+	<!-- <div class="card-area bg-top-center overflow-hidden space" data-bg-src="assets/img/bg/card_bg_1.jpg"> -->
+	<div class="card-area bg-top-center overflow-hidden">
+		<div class="container">
+			<div class="title-area text-center wow fadeInUp">
+				<!-- <span class="sub-title">Our Services</span> 
+					<img src="assets/img/theme-img/title_shape_1.svg" alt=""> -->
+				<h2 class="sec-title text-black">Enjoy All Your Favorite Beauty Services At Home</h2>
+			</div>
+			<div class="row gy-4 justify-content-center align-items-center">
+				<div class="col-md-6 col-lg-6 col-xl-4">
+					<div class="card-item wow fadeInUp" style="border-radius:20px;">
+						<a href="category.php?cate=beauty-packages-at-home">
+							<div class="card-item_img"><img src="assets/img/service/Beauty-Package.jpg" alt=""></div>
+							<div class="content">
+								<h3 class="box-title"><a href="category.php?cate=beauty-packages-at-home" style="color:#000;">Beauty <br/> Package </a></h3>
+								<!--<p class="card-item_text" style="color:#000;"></p>-->
+								<!-- <a href="#" class="th-btn style5">Get Now<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+							</div>
+						</a>
+					</div>
+				</div> 
+				<div class="col-md-6 col-lg-6 col-xl-4">
+					<div class="card-item wow fadeInDown" style="border-radius:20px;">
+						<a href="category.php?cate=facial-services-at-home">
+							<div class="card-item_img"><img src="assets/img/service/Facial.jpg" alt=""></div>
+							<div class="content">
+								<h3 class="box-title"><a href="category.php?cate=facial-services-at-home" style="color:#000;">Facial</a></h3>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6 col-xl-4">
+					<div class="card-item wow fadeInUp" style="border-radius:20px;">
+						<a href="pre-bridal.php">
+							<div class="card-item_img"><img src="assets/img/service/wedding.jpg" alt=""></div>
+							<div class="content">
+								<h3 class="box-title"><a href="pre-bridal.php" style="color:#000;">Wedding</a></h3>
+								<!-- <p class="card-item_text">Package</p> -->
+								<!-- <a href="#" class="th-btn style5">Get Now<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+							</div>
+						</a>
+					</div>
+				</div>
+
+
+				<div class="col-md-6 col-lg-6 col-xl-4">
+					<div class="card-item wow fadeInUp" style="border-radius:20px;">
+						<a href="category.php?cate=waxing-services-at-home">
+							<div class="card-item_img"><img src="assets/img/service/Waxing.jpg" alt=""></div>
+							<div class="content">
+								<h3 class="box-title"><a href="category.php?cate=waxing-services-at-home" style="color:#000;">Waxing</a></h3>
+								<!-- <p class="card-item_text">Package</p> -->
+								<!-- <a href="#" class="th-btn style5">Get Now<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+							</div>
+						</a>
+					</div>
+				</div>
+
+
+
+				<div class="col-md-6 col-lg-6 col-xl-4">
+					<div class="card-item wow fadeInUp" style="border-radius:20px;">
+						<a href="category.php?cate=massage-services-at-home">
+							<div class="card-item_img"><img src="assets/img/service/massage.jpg" alt=""></div>
+							<div class="content">
+								<h3 class="box-title"><a href="category.php?cate=massage-services-at-home" style="color:#000;">Massage</a></h3>
+								<!-- <p class="card-item_text">Package</p> -->
+								<!-- <a href="#" class="th-btn style5">Get Now<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+							</div>
+						</a>
+					</div>
+				</div>
+
+
+ 
+				<div class="col-md-6 col-lg-6 col-xl-4">
+					<div class="card-item wow fadeInUp" style="border-radius:20px;">
+						<a href="category.php?cate=manicure-pedicure-at-home">
+							<div class="card-item_img"><img src="assets/img/service/Mani-Pedi.jpg" alt=""></div>
+							<div class="content">
+								<h3 class="box-title"><a href="category.php?cate=manicure-pedicure-at-home" style="color:#000;">Mani+pedi</a></h3>
+								<!-- <p class="card-item_text">Package</p> -->
+								<!-- <a href="#" class="th-btn style5">Get Now<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="video-group text-center" style="margin-top:10px;">
+					<a href="salon-services-at-home.php" class="th-btn">View All Services<i class="fa-regular fa-arrow-right ms-2"></i></a>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="shape-mockup d-none d-lg-block jump" data-bottom="10%" data-left="0%"><img
+				src="assets/img/shape/leaves_3.png" alt="shape"></div> -->
+		<!-- <div class="shape-mockup d-none d-lg-block jump" data-top="10%" data-right="0%"><img
+				src="assets/img/shape/leaves_13.png" alt="shape"></div> -->
+	</div>
+
+<div class="overflow-hidden" style="padding-bottom:30px;">
+    <!-- <div class="container"> -->
+    <div class="row">
+        <div class="title-area text-center mb-25">
+            <!--<h2 class="sec-title">What our customers say</h2>-->
+        </div>
+    </div>
+    <div class="col-md-12 col-lg-12">
+      <!-- Elfsight Google Reviews | Beautylook - Google Reviews -->
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-0a3895d2-b108-49e3-be99-ae7840187f28" data-elfsight-app-lazy></div>
+    </div>
+    <!-- </div> -->
+</div>
+
+ 
+	<section class="service-area2 overflow-hidden space" id="service-sec" style="background-color:#f1f0f5;">
+		<div class="container">
+			<div class="row">
+				<div class="title-area text-center">
+				    <!--<span class="sub-title style2">Why Choose Us</span>-->
+
+					<h2 class="sec-title">The Magic Of Beautylook</h2>
+				</div>
+			</div> 
+			<div class="row  data-slide-show=" 4" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="2"
+				data-dots="true" data-xl-dots="true" data-ml-dots="true" data-lg-dots="true" data-md-dots="true">
+				<div class="col-md-6 col-lg-6 col-xl-4">
+					<div class="service-box wow fadeInUp">
+						<div class="service-box_icon">
+							<div class="global-icon"><img src="assets/img/magic/img1.png" alt="Icon"></div>
+						</div>
+						<h3 class="box-title">Select Your Service</h3>
+						<p class="service-box_text">Choose your beauty services or browse our services page.</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6 col-xl-4">
+					<div class="service-box wow fadeInUp">
+						<div class="service-box_icon">
+							<div class="global-icon"><img src="assets/img/magic/img2.png" alt="Icon"></div>
+						</div>
+						<h3 class="box-title">Choose A Time & Date</h3>
+						<p class="service-box_text">Choose date & time Pay quickly and safely AFTER your treatment!</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6 col-xl-4">
+					<div class="service-box wow fadeInUp">
+						<div class="service-box_icon">
+							<div class="global-icon"><img src="assets/img/magic/img3.png" alt="Icon"></div>
+						</div>
+						<h3 class="box-title">We Will Come To You</h3>
+						<p class="service-box_text">Sit back and relax! Wait to be Pampered. Receive one of our
+							incredible professionals at your home.</p>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+	<hr style="padding-top: 1px;background-color: #fff;">
+	<div class="overflow-hidden " id="about-sec" style="padding-top:30px;background-color:#F5F5F3;">
+		<div class="container">
+			<div class="about-title-area">
+				<div class="title-area text-center mb-40">
+					<img src="assets/img/magic/img4.png" style="width:140px;">
+					<!-- <img src="assets/img/theme-img/title_shape_1.svg" alt="" /> -->
+					<h2 class="sec-title">Peace Of Mind Guarantee</h2>
+					<p>We are committed to your complete satisfaction with our beauty services .If you're not 100%
+						happy, we will do whatever it takes to make right .</p>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="overflow-hidden " id="about-sec" style="padding-top:30px;">
+		<div class="container">
+			<div class="about-title-area">
+				<div class="title-area text-center mb-40">
+					<!--<span class="sub-title style2">About Us</span>-->
+					<!-- <img src="assets/img/theme-img/title_shape_1.svg" alt="" /> -->
+					<!-- <h2 class="sec-title">Peace Of Mind Guarantee</h2>
+					<p>We are committed to your complete satisfaction with our beauty services .If you're not 100%
+						happy, we will do whatever it takes to make right .</p> -->
+					<p class="sec-text">
+						Beautylook is the delhi leading beauty services all from your comfort of your home or office.
+						Our professional team helped thousands of busy women in delhi-ncr. our business designed by
+						women, for women, so we know how exactly make your lives easier. Fair pricing is very important
+						to us. our vision is providing expert beauty services delivery in time. We are proud to be
+						supporting a team of highly talented beauty professional all are skilled, tested & verified
+					</p>
+				</div>
+			</div>
+			<!--<div class="video-group text-center">-->
+			<!--	<a href="tel:+917703829192" class="th-btn style2">Make A Call<i-->
+			<!--			class="fa-regular fa-arrow-right ms-2"></i></a>-->
+			<!--</div>-->
+		</div>
+		<!--<div class="shape-mockup d-none d-lg-block jump" data-top="0%" data-left="0%"><img-->
+		<!--		src="assets/img/shape/flower_1_5.png" alt="shape" /></div>-->
+		<!--<div class="shape-mockup d-none d-lg-block jump" data-bottom="0%" data-right="0%"><img-->
+		<!--		src="assets/img/shape/leaves_2.png" alt="shape" /></div>-->
+	</div>
+
+		
+	<section class="overflow-hidden " id="shop-sec">
+			<div class="container">
+				<div class="title-area text-center">
+					<h2 style="color: #ff7865; class="sec-title">Popular Home Services</h2>
+				</div>
+				<div class="row th-carousel" id="productCarousel" data-autoplay-speed="1200"  data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-arrows="true" data-xl-arrows="true" data-sm-arrows="true" data-xs-arrows="true" data-ml-arrows="true" data-lg-arrows="true">
+								<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="th-product product-grid">
+							<div class="product-img">
+								<img src="admin/offerimage/Festival Sale new (1).png" alt="Product Image" />
+							</div>
+						</div>
+				</div>
+								<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="th-product product-grid">
+							<div class="product-img">
+								<img src="admin/offerimage/Monthly Essential 02-10-24.png" alt="Product Image" />
+							</div>
+						</div>
+				</div>
+								<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="th-product product-grid">
+							<div class="product-img">
+								<img src="admin/offerimage/Beautylook delight 02-10 New.png" alt="Product Image" />
+							</div>
+						</div>
+				</div>
+								<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="th-product product-grid">
+							<div class="product-img">
+								<img src="admin/offerimage/Carousel Instagram Post new.png" alt="Product Image" />
+							</div>
+						</div>
+				</div>
+				
+				</div>
+			</div>
+			</section>
+
+
+	<div class="overflow-hidden">
+		<div class="container">
+			<div class="counter-sec space-top">
+
+				<div class="th-counterup wow fadeInLeft">
+					<div class="inner">
+						<div class="icon">
+							<img src="assets/img/icon/counter_1_4.svg" alt="" />
+						</div>
+						<div class="content">
+							<h3 class="counter">
+								<span class="odometer" data-count="1300">00</span>
+								<span class="counter-number">+</span>
+							</h3>
+							<p class="counter-card_text">CUSTOMER REVIEWS</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="th-counterup wow fadeInLeft">
+					<div class="inner">
+						<div class="icon">
+							<img src="assets/img/icon/counter_1_1.svg" alt="" />
+						</div>
+						<div class="content">
+							<h3 class="counter">
+								<span class="odometer" data-count="20000">00</span>
+								<span class="counter-number">+</span>
+							</h3>
+							<p class="counter-card_text">SERVICES COMPLETED</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="th-counterup wow fadeInLeft">
+					<div class="inner">
+						<div class="icon">
+							<img src="assets/img/icon/counter_1_3.svg" alt="" />
+						</div>
+						<div class="content">
+							<h3 class="counter">
+								<span class="odometer" data-count="4.7">00</span>
+								<span class="counter-number">+</span>
+							</h3>
+							<p class="counter-card_text">AVERAGE RATING</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="faq-sec overflow-hidden space-bottom pb-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="ps-xl-4">
+						<div class="title-area mb-40">
+							<span class="sub-title">Frequently Asked Question</span>
+
+						</div>
+						<div class="accordion-area accordion" id="faqAccordion">
+							<div class="accordion-card active">
+								<div class="accordion-header" id="collapse-item-1">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Why
+										Choose Salon At Home Services?</button>
+								</div>
+								<div id="collapse-1" class="accordion-collapse collapse show"
+									aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
+									<div class="accordion-body">
+										<p class="faq-text">
+											Convenience and Comfort - Choose Beautylook - Salon at Home Services for a
+											Stress-Free Experience in the Comfort of Your Own Home.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-card">
+								<div class="accordion-header" id="collapse-item-2">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapse-2" aria-expanded="false"
+										aria-controls="collapse-2">Which Location Do You Serve?</button>
+								</div>
+								<div id="collapse-2" class="accordion-collapse collapse"
+									aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
+									<div class="accordion-body">
+										<p class="faq-text">
+											Beautylook bring the Salon to Your Doorstep - Our Services Available in
+											Delhi-NCR. Please note that Minimum Service Value require for taking
+											service.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-card">
+								<div class="accordion-header" id="collapse-item-3">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+										Can I Make A Group Booking?
+									</button>
+								</div>
+								<div id="collapse-3" class="accordion-collapse collapse"
+									aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
+									<div class="accordion-body">
+										<p class="faq-text">
+											Yes, of course! Get Together and Relax with Friends - Group Bookings
+											Available for Salon Services. beauty services for you to enjoy together.
+											Group bookings may be subject to different pricing than individual bookings.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-card">
+								<div class="accordion-header" id="collapse-item-4">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapse-4" aria-expanded="false"
+										aria-controls="collapse-4">Can I Request A Specific Beauty Professional For My
+										Beauty Treatment?</button>
+								</div>
+								<div id="collapse-4" class="accordion-collapse collapse"
+									aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
+									<div class="accordion-body">
+										<p class="faq-text">
+											Yes, Book Your Favorite stylist or beautician or Choose from Our Highly
+											Skilled Team or someone that a friend has recommended - Contact Us to
+											Request Your Preferred Beautician.
+										</p>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="accordion-card">
+								<div class="accordion-header" id="collapse-item-5">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+										data-bs-target="#collapse-5" aria-expanded="false"
+										aria-controls="collapse-5">How Do You Ensure The Safety Of Your Clients During
+										Salon At Home Services?</button>
+								</div>
+								<div id="collapse-5" class="accordion-collapse collapse"
+									aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
+									<div class="accordion-body">
+										<p class="faq-text">
+											We take the safety of our clients very seriously and have implemented
+											several precautions to ensure their safety. Our Beauty Professional follow
+											proper hygiene and sanitization protocols, including wearing masks and
+											gloves, and using disinfectant on all equipment. If you have any concerns
+											about health and safety, please don't hesitate to contact us.
+										</p>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+<footer class="footer-wrapper footer-layout1">
+        <div class="widget-area">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="widget footer-widget">
+                            <div class="th-widget-about">
+                                <div class="about-logo">
+                                    <a href="index.php"><img src="assets/image/logo2.png" alt="Beautylook" /
+                                            style="width:200px;"></a>
+                                </div>
+                                <p class="about-text" style="color:#fff;">Beautylook is the Delhi’s leading beauty
+                                    services all from your
+                                    comfort of your home or office. Our Professional team helped thousand of busy women
+                                    in Delhi-Ncr.</p>
+
+                                <div class="working-time">
+                                    <span class="title" style="color:#fff;">We Are Available:</span>
+                                    <p class="desc" style="color:#fff;">Appointments every day, 9:00am – 6:00pm in the
+                                        comfort of your home.
+                                    </p>
+
+                                </div>
+
+                                <div class="th-social footer-social">
+                                    <a href="https://www.facebook.com/beautylook.in"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/beautylook.in"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <!--<a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>-->
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-xl-3">
+
+                        <div class="widget widget_nav_menu footer-widget">
+
+                            <h3 class="widget_title">Discovers</h3>
+
+                            <div class="menu-all-pages-container">
+
+                                <ul class="menu">
+
+                                    <li><a href="index.php" style="color:#fff;">Home</a></li>
+                                                                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#newModal"
+                                            style="color:#fff;">Login/Register</a></li>
+
+                                    
+                                    <li><a href="contact.php" style="color:#fff;">Contact Us</a></li>
+
+                                    <li><a href="terms-and-conditions.php" style="color:#fff;">Terms and Conditions</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 col-xl-auto">
+
+                        <div class="widget footer-widget">
+
+                            <h3 class="widget_title">Need Help?</h3>
+
+                            <div class="th-widget-about">
+
+                                <h4 class="footer-info-title">Phone Number</h4>
+
+                                <p class="footer-info"><i class="fa-sharp fa-solid fa-phone"></i><a class="text-inherit"
+                                        href="tel:+917703829192">+917703829192 </a></p>
+
+                                <h4 class="footer-info-title">Email Address</h4>
+
+                                <p class="footer-info"><i class="fas fa-envelope"></i><a class="text-inherit"
+                                        href="mailto:bookings@beautylook.in">bookings@beautylook.in</a></p>
+
+                                <h4 class="footer-info-title">Office Location</h4>
+
+                                <p class="footer-info"><i class="fas fa-map-marker-alt"></i>Delhi</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright-wrap">
+
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-12">
+
+                        <p class="copyright-text text-white text-center">© 2023 <a href="#">Beautylook</a>. All Rights
+                            Reserved. </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--<div class="shape-mockup" data-top="0%" data-left="0%"><img src="assets/img/shape/footer_shape_1.png"-->
+        <!--        alt="shape" />-->
+        <!--</div>-->
+
+        <!--<div class="shape-mockup d-none d-xl-block" data-bottom="12%" data-right="0%"><img-->
+        <!--        src="assets/img/shape/footer_shape_2.png" alt="shape" /></div>-->
+        <!-- Cart Section -->
+           
+       
+            
+
+        <script>
+
+
+            function removeItem(key, service_id = 0) {
+                // AJAX request to remove the item from the session cart
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', 'remove_from_cart.php?service_id=' + service_id, true);
+                xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == XMLHttpRequest.DONE) {
+                        if (xhr.status == 200) {
+                            // Success: reload the page or update the cart display
+                            window.location.reload(); // Reload the page for simplicity
+                        } else {
+                            // Error: Handle the error response
+                            console.error('Error removing item from cart:', xhr.responseText);
+                        }
+                    }
+                };
+                xhr.send('key=' + key);
+            }
+        </script>
+
+    </footer>
+
+
+    <!------pin code checking start------>
+
+    <div class="modal fade" id="newModal" tabindex="-1" aria-labelledby="newModalLabel" aria-hidden="true"
+        style="top: 100px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close custom-close-button" data-bs-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <center>
+                        <h6>Where do you want to book ? </h6>
+                        <div id="result"></div>
+                    </center>
+                    <form id="pincode-form" action="check-pincode.php" method="post" style="position: relative;">
+                        <!-- Input field with autocomplete -->
+                        <div class="form-group">
+                            <i class="fa fa-map-marker-alt"
+                                style="top: 50%; transform: translateY(-50%); font-size: 26px;"></i>
+
+                            <input type="text" id="pincode-input" placeholder="Enter your address" name="pincode"
+                                class="form-control"
+                                style="border: none; border-bottom: 1px solid black; background-color: transparent; padding-left: 30px;">
+                            <!-- <input type="text" name="currturl" value=""> -->
+                            <input type="hidden" id="is_autocomplete" name="is_autocomplete" value="0">
+                        </div><br>
+                        <input type="hidden" name="currturl" value="/wp-content/uploads/2022/09/Up-to-Elbows-Keratin-Hair-Spa-Treatment-By-Kerasmooth-1024x683.png">
+
+                        <!-- <input type="text" id="pincode-input" placeholder="Enter Pincode" name="pincode" required /> <br /><br /> -->
+                        <input type="submit" class="th-btn" style="width: 100%;" name="submit"
+                            value="Select your service">
+                    </form>
+                    <div id="selected-place" class="result-container"></div>
+                    <!-- <center>
+                    <ul class="list-inline">
+                        <b>Only available in these city </b><br>
+                        <li class="list-inline-item btn btn-success">Delhi</li>
+                        <li class="list-inline-item btn btn-success">Noida</li>
+                        <li class="list-inline-item btn btn-success">Gurugram</li>
+                    </ul>
+                    </center> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------pin code checking end------>
+
+
+    <!------login start------>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true"
+        style="top: 100px;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close custom-close-button" data-bs-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <center>
+                        <h6 class="login-otp-modal-title">Login / Register</h6>
+                    </center>
+
+                    <form action="sendotp.php" method="POST" class="booking-form-area send-otp"
+                        style="background-color: #F9F4EE;">
+
+                        <div class="row">
+
+                            <div class="form-group col-md-12">
+                                <i class="fa-light fa-lock"></i>
+                                <input type="tel" placeholder="Mobile Number" class="form-control phone_number_inp"
+                                    name="phone_number" required pattern="[0-9]{10}"
+                                    title="Please enter a 10-digit number" style="border:2px solid #5d17eb;">
+                                <input type="number" placeholder="Enter OTP" class="form-control otp_inp" name="otp"
+                                    pattern="[0-9]{6}" title="Please enter a 6-digit number"
+                                    style="display: none; border:2px solid #5d17eb;">
+                                <p class="otp_sent_txt fst-italic" style="display: none;">OTP has been sent on your phone number.</p>
+                            </div>
+                            <div class="btn-group justify-content-center justify-content-lg-start">
+                                <input type="submit" class="form-btn send_btn" name="submit" value="Send Otp" />
+                            </div>
+                            <br /><br />
+                            <div class="d-flex justify-content-between align-items-center">
+                                <input type="checkbox" id="horns" name="horns" checked />
+                                <label for="horns">I have read <a href="#">Terms and Conditions</a> </label>
+                            </div>
+                            <p class="form-messages mb-0 mt-3"></p>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------login end------>
+
+
+    <!-- product details model start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true"
+        style="top: 100px;">
+        <form action="" method="post" id="addServiceForm">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h6 class="modal-title" id="title"></h6>
+                        <button type="button" class="btn-close custom-close-button" data-bs-dismiss="modal"
+                            aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="row">
+                            <!-- Left Side: Time -->
+                            <div class="col-md-12 col-12">
+                                <h6>
+                                    <i class="fa-light fa-credit-card"></i>
+                                    <span id="service_saleprice" style="margin-left:20px;"></span> <span
+                                        id="service_ragularprice" style="margin-left:20px;"></span>
+                                </h6>
+                            </div>
+                            <!-- Right Side: Price -->
+                        </div>
+                        <div class="row">
+                            <!-- Left Side: Time -->
+                            <div class="col-md-12 col-12">
+                                <h6><i class="fa-light fa-clock"></i> <span id="service_timing"
+                                        style="margin-left:20px;"></span></h6>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <!-- Left Side: Heading -->
+                            <div class="col-md-12 col-12" id="equipmentSection" style="display: none;">
+                                <h6 style="margin-top: -22px;">
+                                    <i class="fa-light fa-suitcase"></i>
+                                    <span style="margin-left:20px;"> Equipment Include</span>
+                                </h6>
+                                <p id="salon_equipment" style="margin-left:44px;font-size:12px;"></p>
+                            </div>
+
+                            <input type="hidden" class="qty-input" step="1" min="1" name="qty" value="1" title="Qty"
+                                id="quantity">
+                        </div>
+                        <!-- Some Content -->
+                        <div id="accordionContent">
+                            <!-- <h5>Some Content</h5>--->
+                            <div class="accordion" id="faqAccordion" style="margin-top:-24px;">
+                                <div class="accordion-card active">
+                                    <div class="accordion-header" id="collapse-item-1">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse-1" aria-expanded="true"
+                                            aria-controls="collapse-1">
+                                            Beautylook tells you everything
+                                        </button>
+                                    </div>
+                                    <div id="collapse-1" class="accordion-collapse collapse show"
+                                        aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            <iframe srcdoc='<html><body><p class="faq-text">
+                                                    <span id="service_description" style="font-size:13px;"></span>
+                                                    </p></body></html>'>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <button type="button" class="th-btn" style="width:100%;">Add Service</button> -->
+                                                        <!-- <a href="login-re" class="th-btn" style="width:100%;">
+                                Add Service
+                            </a> -->
+                            
+                        </div>
+                    </div>
+                </div>
+        </form>
+    </div>
+
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+
+    <script src="assets/js/slick.min.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <script src="assets/js/jquery-ui.min.js"></script>
+
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+
+    <script src="assets/js/odometer.js"></script>
+
+    <script src="assets/js/appear-2.js"></script>
+
+    <script src="assets/js/nice-select.min.js"></script>
+
+    <script src="assets/js/jquery.datetimepicker.min.js"></script>
+
+    <script src="assets/js/tilt.min.js"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2vgzA4PThyEtTTkS3EuHgxoM-JwL4fng&libraries=places&callback=initPlacesAutocomplete"
+        async defer>
+        </script>
+    <script>
+        // config.js
+        const CONFIG = {
+            // Bounds optimized for Delhi, Gurugram, and Noida
+            BOUNDS: {
+                north: 28.8,  // Northern Delhi
+                south: 28.4,  // Southern Gurugram
+                east: 77.6,   // Eastern Noida
+                west: 76.8    // Western Gurugram
+            },
+
+            // Restricted to only Delhi, Gurugram, and Noida with their variations
+            NCR_REGIONS: {
+                'Delhi': [
+                    'delhi',
+                    'new delhi',
+                    'south delhi',
+                    'north delhi',
+                    'east delhi',
+                    'west delhi',
+                    'central delhi',
+                    'delhi ncr'
+                ],
+                'Gurugram': [
+                    'gurugram',
+                    'gurgaon',
+                    'cyber city',
+                    'cyber hub',
+                    'udyog vihar',
+                    'dlf cyber city',
+                    'golf course road',
+                    'sohna road'
+                ],
+                'Noida': [
+                    'noida',
+                    'greater noida',
+                    'noida extension',
+                    'sector'  // Many Noida locations start with 'Sector'
+                ]
+            },
+
+            MESSAGES: {
+                INVALID_CITY: 'Please select a location only in Delhi, Gurugram, or Noida',
+                NO_PLACE_SELECTED: 'Please select a valid location from the dropdown',
+                INVALID_ADDRESS: 'Invalid address. Please provide a valid address within Delhi, Gurugram, or Noida'
+            }
+        };
+
+        // app.js
+        let autocomplete;
+
+        function initPlacesAutocomplete() {
+            const input = document.getElementById('pincode-input');
+
+            // Create bias bounds
+            const defaultBounds = new google.maps.LatLngBounds(
+                { lat: CONFIG.BOUNDS.south, lng: CONFIG.BOUNDS.west },
+                { lat: CONFIG.BOUNDS.north, lng: CONFIG.BOUNDS.east }
+            );
+
+            // Configure the autocomplete options
+            const options = {
+                bounds: defaultBounds,
+                componentRestrictions: { country: 'IN' },
+                fields: ['address_components', 'geometry', 'name', 'formatted_address'],
+                strictBounds: true  // Changed to true to restrict to our bounds
+            };
+
+            // Create the autocomplete object
+            autocomplete = new google.maps.places.Autocomplete(input, options);
+
+            // Add event listeners
+            autocomplete.addListener('place_changed', handlePlaceSelection);
+            input.addEventListener('input', handleInput);
+        }
+
+        function handleInput() {
+            hideResultContainer();
+            removeErrorMessage();
+        }
+
+        function handlePlaceSelection() {
+            const place = autocomplete.getPlace();
+            const input = document.getElementById('pincode-input');
+
+            if (!place.geometry) {
+                showErrorMessage(CONFIG.MESSAGES.NO_PLACE_SELECTED);
+                return;
+            }
+
+            // Mark the address as selected from autocomplete
+            document.getElementById('is_autocomplete').value = '1';
+
+            // Check if location is in allowed regions
+            const locationCheck = isLocationAllowed(place);
+
+            if (!locationCheck.allowed) {
+                showErrorMessage(CONFIG.MESSAGES.INVALID_CITY);
+                input.value = '';
+                hideResultContainer();
+                return;
+            }
+
+            selectedPlace = {
+                name: place.name,
+                address: place.formatted_address,
+                region: locationCheck.region,
+                location: {
+                    lat: place.geometry.location.lat(),
+                    lng: place.geometry.location.lng()
+                }
+            };
+
+            displaySelectedPlace();
+        }
+
+        function isLocationAllowed(place) {
+            const result = { allowed: false, region: '' };
+
+            // Get all relevant parts of the address
+            const addressParts = {
+                locality: '',
+                sublocality: '',
+                administrative_area: ''
+            };
+
+            // Extract address components
+            for (const component of place.address_components) {
+                if (component.types.includes('locality')) {
+                    addressParts.locality = component.long_name.toLowerCase();
+                }
+                if (component.types.includes('sublocality_level_1')) {
+                    addressParts.sublocality = component.long_name.toLowerCase();
+                }
+                if (component.types.includes('administrative_area_level_2')) {
+                    addressParts.administrative_area = component.long_name.toLowerCase();
+                }
+            }
+
+            // Check if the location matches any of our allowed regions
+            for (const [region, variations] of Object.entries(CONFIG.NCR_REGIONS)) {
+                // Check each variation against all address parts
+                const isMatch = variations.some(variation => {
+                    return Object.values(addressParts).some(part => {
+                        if (variation === 'sector' && region === 'Noida') {
+                            // Special handling for Noida sectors
+                            return part.includes('sector') &&
+                                (part.includes('noida') || addressParts.administrative_area.includes('noida'));
+                        }
+                        return part.includes(variation);
+                    });
+                });
+
+                if (isMatch) {
+                    result.allowed = true;
+                    result.region = region;
+                    break;
+                }
+            }
+
+            // If no match found by name, check coordinates as fallback
+            if (!result.allowed) {
+                const lat = place.geometry.location.lat();
+                const lng = place.geometry.location.lng();
+
+                // Only allow if within our specified bounds
+                if (lat >= CONFIG.BOUNDS.south &&
+                    lat <= CONFIG.BOUNDS.north &&
+                    lng >= CONFIG.BOUNDS.west &&
+                    lng <= CONFIG.BOUNDS.east) {
+
+                    result.allowed = true;
+                    result.region = determineRegionByCoordinates(lat, lng);
+                }
+            }
+
+            return result;
+        }
+
+        function determineRegionByCoordinates(lat, lng) {
+            // More precise region determination based on coordinates
+            if (lng < 77.1) return 'Gurugram';    // Western region (Gurugram)
+            if (lng > 77.35) return 'Noida';      // Eastern region (Noida)
+            return 'Delhi';                        // Central region (Delhi)
+        }
+
+        // Handle manual input (if the user types an address instead of selecting it)
+        document.getElementById('pincode-input').addEventListener('blur', function () {
+            const isAutocomplete = document.getElementById('is_autocomplete').value === '1';
+
+            // If the address was typed manually and is not from autocomplete
+            if (!isAutocomplete) {
+                handleManualInput(this);
+            }
+        });
+
+        function handleManualInput(input) {
+            // When the user types an address manually, ensure it is in the allowed regions
+            const place = { formatted_address: input.value };
+
+            const locationCheck = isLocationAllowed(place);
+
+            if (!locationCheck.allowed) {
+                showErrorMessage(CONFIG.MESSAGES.INVALID_ADDRESS);
+                input.value = '';  // Clear the input if invalid
+            }
+        }
+
+        function showErrorMessage(message) {
+            // Function to display an error message to the user
+            alert(message);
+            // Optionally, you can add additional UI elements to show the message
+        }
+
+        function hideResultContainer() {
+            // Hide the results container if needed
+        }
+
+        function removeErrorMessage() {
+            // Remove any error message if needed
+        }
+
+    </script>
+
+    <script>
+        function prepareAndSubmitForm() {
+            // Set the value of the hidden input fields
+            var service_id = document.getElementById("service_id").value;
+            document.getElementById("hiddenTitleInput").value = document.getElementById("title").innerText;
+            document.getElementById("hiddenTimingInput").value = document.getElementById("service_timing").innerText;
+
+            // Retrieve the service description from the iframe
+            var descriptionIframe = document.getElementById("collapse-1").querySelector("iframe");
+            var descriptionSpan = descriptionIframe.contentDocument.getElementById("service_description");
+            var description = descriptionSpan.innerText;
+
+            // Set the value of the hidden description input field
+            document.getElementById("hiddenDescInput").value = description;
+            // Retrieve the service description from the iframe
+            var qty = document.getElementById("quantity").value;
+            var service_image = document.getElementById("service_image").innerText;
+            var service_cate = document.getElementById("service_cate").innerText;
+
+
+            var salePriceElement = document.getElementById("service_saleprice");
+            var regularPriceElement = document.getElementById("service_ragularprice");
+
+            var price;
+            if (salePriceElement.innerText !== "") {
+                price = salePriceElement.innerText.replace('₹', ''); // Remove ₹ sign if present
+            } else {
+                price = regularPriceElement.innerText.replace('₹', ''); // Remove ₹ sign if present
+            }
+
+            // Set the value of the hidden price input field
+            document.getElementById("hiddenPriceInput").value = price;
+
+            // Submit the form
+            document.getElementById("addServiceForm").submit();
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.send-otp').on('submit', function (event) {
+                event.preventDefault();
+                /* Act on the event */
+                let _this = $(this);
+                let url = $(this).prop("action");
+
+                let data = event.target;
+                data = new FormData(data);
+                data = Object.fromEntries(data.entries());
+
+                // Trim whitespace from form data values
+                Object.keys(data).forEach((k) => (data[k] = data[k].trim()));
+                if (data["phone_number"] != "") {
+                    $.ajax({
+                        url: url,
+                        type: 'POST',
+                        dataType: 'json',
+                        data: data,
+                    })
+                    .done(function (res) {
+                        console.log(res);
+                        $('.send_btn').val("Verify OTP");
+
+                        $('.login-otp-modal-title').text('OTP');
+                        $('.phone_number_inp').hide('fast');
+
+                        $('.otp_inp').prop('required', true);
+                        $('.otp_inp').show('fast');
+
+                        $('.otp_sent_txt').text(res.msg);
+                        $('.otp_sent_txt').show('fast');
+
+                        _this.prop('action', 'otpvarify.php');
+
+                        if (res.status && res.location) {
+                            window.location.href = res.location;
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
